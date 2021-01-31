@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --blue-principal: #1877f2;
+    --green-principal: #42b72a;
+    --main-background: #f0f2f5;
+    --white: #ffffff;
+}
+
+main{
+    background-color: var(--main-background);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 175px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+.first--section{
+    width: 50%;
+}
+
+.first--section__article{
+    margin-left: 300px;
+}
+
+.first--section__article img{
+    height: 106px;
+    margin-left: -28px;
+    margin-bottom: -10px;
+}
+
+.first--section__article h2{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+.second--section{
+    margin-top: -40px;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.second--section__article{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 20px;
+}
+
+.second--section__article form{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.second--section__article form label{
+    width: 100%;
+    text-align: center;
+}
+
+.second--section__article form input{
+    font-size: 17px;
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    height: 35px;
+    padding: 25px 16px;
+    margin-bottom: 10px;
+    line-height: 16px
+}
+
+.second--section__article form button{
+    background-color: var(--blue-principal);
+    border: 0px;
+    border-radius: 8px;
+    height: 50px;
+    color: var(--white);
+    width: 100%;
+    font-size: 2.0rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.second--section__article form button:hover{
+    background-color: #166fe5;
+}
+
+.second--section__article form a{
+    padding: 20px 0;
+    font-size: 1.4rem;
+    color: var(--blue-principal);
+    text-decoration: none;
+}
+
+.second--section__article form a:hover{
+    text-decoration: underline;
+}
+
+.second--section__article .create-account{
+    background-color: var(--green-principal);
+    border-radius: 8px;
+    color: var(--white);
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center;
+    align-self: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create-page{
+    margin-top: 30px;
+    width: 56%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.create-page a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-page a:hover{
+    text-decoration: underline;
+}
+
+.create-page p{
+    font-size: 1.4rem;
+}
+
+
+footer{
+    height: 200px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.footer-container .top-side{
+    padding-top: 40px;
+    height: 70px;
+    border-bottom: 1px solid#dddfe2;
+}
+
+.footer-container .top-side ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.top-side ul li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.top-side ul li a{
+    color: #8a8d91;
+    text-decoration: none;
+}
+
+.top-side ul li a:hover{
+    text-decoration: underline;
+}
+
+.top-side .actual-lenguage{
+    color: var(--green-principal);
+}
+
+.top-side ul li:last-child{
+    width: 30px;
+    height: 15px;
+}
+
+.top-side .icon--container{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-side .icon-plus{
+    width: 15px;
+    height: 15px;
+    background-image: url('../assets/icons/plus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
